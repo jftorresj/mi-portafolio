@@ -1,0 +1,402 @@
+@import url("styles/reset.css");
+@import url("styles/header.css");
+
+body{
+    background-color: #f5f5f5;
+    line-height: 1;
+    font-family: "Raleway";
+    color: #464646;    
+    overflow-x: hidden;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title__profile{
+    height: 148px; 
+    margin-left: 16px;     
+}
+
+
+.title__bio{
+    font-weight: bold;
+    font-size: 22px;
+    padding: 16px 16px;
+}
+
+.title__subsection{
+    padding: 16px 16px;
+}
+
+.title__network{
+    padding: 16px 16px;
+    display: flex;
+    gap: 14px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+
+.about__title{
+        font-weight: bold;
+        font-size: 22px;
+        margin-left: 16px;
+}
+
+.about__paragraph{
+    font-size: 14px;
+    padding: 16px 16px;
+}
+
+
+.skills, .hobbies, .firma{
+    padding: 16px 16px;
+}
+
+.skills__title, .hobbies__title, .academic__title, .experience__section__title {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+.skills__line, .hobbies__line{
+    
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;   
+    justify-content: center;     
+    margin-top: 32px;
+    gap: 16px;
+    
+}   
+
+.skills__box, .hobbies__box{      
+    height: 118px;
+    width: 156px;
+    background-color: white;
+    display: flex;    
+}   
+
+.skills__name, .hobbies__name{
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 16px;  
+}
+
+.skills__img, .hobbies__img{
+    height: 37px;
+    margin-left: 16px;  
+    margin-top: 50px;  
+}
+
+.academic{
+    background-color: #EAF2FD
+}
+
+.academic__title{
+    margin-top: 32px;
+    background-color: #EAF2FD
+}
+
+
+.academic__courses__box, .experience__box{    
+    width: 296px;  
+    height: 118px;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 32px 32px 64px;    
+    margin-bottom: 64px;      
+    align-items: center;    
+}
+
+.academic__courses__list{
+    height: 118px;
+    width: 296px;    
+}
+.academic__courses__item__img{      
+    width: 1px;  
+    margin-left: 100px;  
+    background-color: #EAF2FD   
+        
+}
+
+
+.experience__section__title{
+    margin-top: 32px;
+}
+.academic__courses__item__title, .experience__title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 8px;
+    padding-bottom: 0px;
+}
+
+.academic__courses__item__subtitle, .experience__text{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#alura-formacion{
+    margin-bottom: 70px;
+}
+
+.experience__info{
+    margin-left: 32px;
+    height: 91px;
+    width: 296px;
+}
+
+.experience__img{
+    width: 296px;  
+    height: 144px;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-left: 32px;    
+    align-items: center;  
+    padding-top: 16px;
+    border-color:#2a7ae4;
+    margin-top: 32px;
+    
+}
+
+.experiencia__botao--repo{
+    width: 108px;
+    height: 40px; 
+    font-size: 14px;
+    color: #2a7ae4;
+    background-color: white;
+    line-height: 0,5px;
+    border-color: #2a7ae4;
+    
+    
+}
+
+.experience__botao--demo, .formcontato__botao{
+    width: 108px;
+    height: 40px; 
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    background-color: #2a7ae4;  
+    border-color: #2a7ae4;    
+}
+
+
+.formcontato__title{
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 32px;
+    margin-bottom: 8px;
+}
+
+.formcontato__subtext{
+    margin-left: 32px;
+    display: flex;
+    line-height:normal;
+}
+
+.formcontato__text{
+    margin-top: 32px;
+    width: 296px;
+    height: 110px;
+    
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    line-height:normal;
+    margin: 32px 32px;
+    width: 296px;
+    height: 397px;
+    
+}
+
+.formcontato__input{
+    width: 296px;
+    height: 56px;
+    margin-bottom: 32px;
+    color: #C8C8C8;
+    vertical-align:text-top ;
+    font-size: 12px;
+    font-family: Raleway;
+}
+
+.formcontato__textarea{
+        width: 296px;
+        height: 133px;
+        font-size: 12px;
+        
+}
+
+.formcontato__img{
+    display: none;
+}
+
+.formcontato__botao{
+    width: 133px;
+    height: 40px;
+    margin-top: 32px;
+}
+
+.footer{
+    width: 360px;
+    height: 102px;
+    background-color: white;
+    margin-top: 500px;
+    text-align: center;
+    vertical-align: middle;
+}
+.footer__rodape{    
+    text-align: center;
+    font-size: 16px;
+    padding-top: 40px; 
+    
+}
+
+#email{
+    color: #2A7AE4;
+}
+
+
+/* CSS para pantallas grandes */
+
+@media (min-width: 1023px){
+    .title__profile{
+        height: 368px;
+        float: right;
+        margin-right: 64px;
+    }    
+
+    .logo__img{
+        float: left;
+    }
+
+    .menu__list__item__contato{
+        display: none;
+    }
+
+    #emailheader{
+        font-weight: bold;
+    }
+
+    .menu__list{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+    .title__network{
+        width: 467px;
+        height: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;       
+    }  
+
+    .title__bio{
+        font-size: 52px;
+    }
+
+    .title__subsection{
+        font-size: 22px;
+    }
+
+    .title__div{
+        margin-left: 64px;
+    }
+    
+    .about__title{
+        font-size: 32px;
+    }
+
+    .about__paragraph{
+        font-size: 16px;
+    }
+
+    .about{               
+        margin-top: 64px;
+        margin-left: 64px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;  
+    }
+    .skills__title, .hobbies__title, .academic__title, .experience__section__title, .formcontato__title {
+        font-weight: bold;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .skills__line, .hobbies__line, .academic__courses{
+        display: flex;
+        flex-wrap: nowrap;        
+        gap: 16px
+    }
+
+    .skills__box, .hobbies__box{      
+        height: 126px;
+        width: 124px;
+        background-color: white;
+        display: flex;  
+        justify-content: center;  
+        
+    }   
+
+    
+    
+    .skills__name, .hobbies__name{
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 16px;  
+    }
+    
+    .skills__img, .hobbies__img{
+        height: 37px;
+        margin-left: 16px;  
+        margin-top: 50px;  
+    }
+
+    .experience2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
+
+    .formcontato__img{  
+        display:inline-flex ;   
+        /* width: 464px;
+        height: 563px;   */
+        /* float:left */
+    }
+
+    .formcontato__contacto{
+        display: flex;
+        margin-top: 64px;        
+        justify-content: center;
+    }
+
+    .formcontato__botao{
+        width: 144px;
+        height: 51px;
+    }
+    
+    .footer{
+    width: 1024px;
+    height: 102px;
+    background-color: white;
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+    }
+
+
+
+}
