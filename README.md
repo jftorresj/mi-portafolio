@@ -1,5 +1,5 @@
 <h1 align="center">Mi Portafolio</h1>
-<img src="https://github.com/jftorresj/encriptador-de-texto/assets/52933548/808f332b-4235-43c7-9879-58e31ac91405" alt="Insignia" align="center">
+<img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169097543-d5ada41e-7db8-481d-9d89-cef4efdf7e05.png">
 
 <h2>Descripción del proyecto</h2>
 El proyecto consiste la utilización de lenguajes de desarrollo Front end para la creación de un portafolio de mis mas recientes ejercicios durante el desarrollo de la formación.
